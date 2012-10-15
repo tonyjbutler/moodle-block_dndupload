@@ -22,7 +22,7 @@ class block_dndupload extends block_base {
     }
 
     function applicable_formats() {
-        return array('all' => true);
+        return array('course-view' => true);
     }
 
     function user_can_addto($page) {
